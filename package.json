@@ -9,7 +9,23 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.58.0",
+    "@playwright/test": "^1.58.1",
     "@types/node": "^25.1.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.58.0",
+    "playwright-core": "^1.58.0",
+    "undici-types": "^7.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vihangavimukthi123/IT3040-Assignment01.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vihangavimukthi123/IT3040-Assignment01/issues"
+  },
+  "homepage": "https://github.com/vihangavimukthi123/IT3040-Assignment01#readme"
 }
